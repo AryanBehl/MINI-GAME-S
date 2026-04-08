@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #1f1c2c, #928dab);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container */
+.container {
+  text-align: center;
+  padding: 30px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255,255,255,0.2);
+  box-shadow: 0 8px 30px rgba(0,0,0,0.4);
+  width: 320px;
+}
+
+/* Title */
+h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+/* Score */
+.score-board {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+/* Buttons */
+.choice {
+  font-size: 40px;
+  margin: 10px;
+  padding: 15px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  background: linear-gradient(145deg, #2c2c54, #1b1b3a);
+  color: white;
+  box-shadow: 5px 5px 10px #14142b, -5px -5px 10px #3a3a7a;
+  transition: all 0.3s ease;
+}
+
+/* Hover Effect */
+.choice:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 20px #00f2ff;
+}
+
+/* Click Effect */
+.choice:active {
+  transform: scale(0.95);
+}
+
+/* Result Text */
+#result {
+  margin-top: 20px;
+  font-size: 18px;
+  min-height: 24px;
+}
