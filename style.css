@@ -10,7 +10,7 @@ body {
 }
 
 /* Container */
-.container {
+/* .container {
   text-align: center;
   padding: 30px;
   border-radius: 20px;
@@ -18,7 +18,7 @@ body {
   border: 1px solid rgba(255,255,255,0.2);
   box-shadow: 0 8px 30px rgba(0,0,0,0.4);
   width: 320px;
-}
+} */
 
 /* Title */
 h1 {
